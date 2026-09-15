@@ -1,0 +1,22 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local secrets and runtime state
+.env
+.env.*
+*.env
+*.sqlite3*
+*.db*
+*.log
+*.lock
+config.local.conf
+
+# Build outputs
+dist/
+build/
